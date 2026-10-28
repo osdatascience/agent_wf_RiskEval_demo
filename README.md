@@ -19,7 +19,7 @@ and compares the output against `expected.txt`.
 
 CI gate with exit code 1 on violation of a hard invariant:
 
-```bash
+```bash https://github.com/osdatascience/agent_wf_RiskEval_demo
 python eval.py --strict
 ```
 
