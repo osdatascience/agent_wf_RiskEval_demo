@@ -9,7 +9,7 @@ The other three reports on the same data say you can't.
 Only `python` required, without any additional packages. No live model or API keys are needed: the answers are already recorded in  `data/`.
 
 ```bash
-git clone 
+git clone https://github.com/osdatascience/agent_wf_RiskEval_demo
 cd 
 ./run.sh
 ```
@@ -19,7 +19,7 @@ and compares the output against `expected.txt`.
 
 CI gate with exit code 1 on violation of a hard invariant:
 
-```bash https://github.com/osdatascience/agent_wf_RiskEval_demo
+```bash
 python eval.py --strict
 ```
 
