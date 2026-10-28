@@ -17,6 +17,11 @@ cd agent_wf_RiskEval_demo
 `run.sh` regenerates the data with the generator, verifies that it matches `data/` byte-by-byte, prints the reports, 
 and compares the output against `expected.txt`.
 
+Generate data:
+
+```bash
+python generate_data.py 
+```
 CI gate with exit code 1 on violation of a hard invariant:
 
 ```bash
