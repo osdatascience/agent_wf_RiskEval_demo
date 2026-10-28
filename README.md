@@ -9,8 +9,8 @@ The other three reports on the same data say you can't.
 Only `python` required, without any additional packages. No live model or API keys are needed: the answers are already recorded in  `data/`.
 
 ```bash
-git clone https://github.com/osdatascience/agent_wf_RiskEval_demo
-cd 
+git clone https://github.com/osdatascience/agent_wf_RiskEval_demo.git
+cd agent_wf_RiskEval_demo
 ./run.sh
 ```
 
